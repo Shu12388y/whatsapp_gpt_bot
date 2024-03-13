@@ -3,7 +3,11 @@ const {
   InvokeModelCommand,
 } = require("@aws-sdk/client-bedrock-runtime");
 
+
+// create a IAM User in AWS and add the credentials
 const config = {
+  // ACCESS_KEY_ID:""
+  // SECERT_ACCESS_KEY:""
   region: "us-east-1",
 };
 
@@ -18,7 +22,8 @@ async function Model(inputdata) {
       body: `{\"inputText\":\"${inputdata}\",\"textGenerationConfig\":{\"maxTokenCount\":512,\"stopSequences\":[],\"temperature\":0,\"topP\":0.9}}`,
       contentType: "application/json",
       accept: "application/json",
-      modelId: "amazon.titan-text-lite-v1",
+      // you can use any model in aws BedRock
+      modelId: "amazon.titan-text-lite-v1",     
     };
     const command = new InvokeModelCommand(input);
     const response = await client.send(command);
