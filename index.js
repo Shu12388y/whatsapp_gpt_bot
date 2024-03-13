@@ -35,11 +35,11 @@ Feel free to explore and don't hesitate to reach out if you need any assistance.
     const res = await Model(q);
     console.log(res);
     return message.reply(res.replace("Bot: ", ""));
-  } else {
-    return message.reply(`Sorry, I didn't understand that command. 🤔
-                          Please use one of the following commands:
-                          /hello - to greet me
-                          /question - to ask a question`);
+  // } else {
+  //   return message.reply(`Sorry, I didn't understand that command. 🤔
+  //                         Please use one of the following commands:
+  //                         /hello - to greet me
+  //                         /question - to ask a question`);
   }
 });
 
