@@ -132,4 +132,4 @@ dist
 /session
 .env
 
-.wwebjs_cache/
+.wwebjs_cache
