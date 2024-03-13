@@ -27,7 +27,7 @@ We're thrilled to have you here! 🎉 Our bot is here to assist you with any que
 To get started, simply type 'menu' for a list of available options, or type 'help' if you need assistance at any point.
         
 Feel free to explore and don't hesitate to reach out if you need any assistance. Happy chatting! 😊"`);
-  }
+}
 
 
   
