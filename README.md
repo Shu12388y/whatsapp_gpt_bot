@@ -83,6 +83,8 @@ To deploy this project run
 
 
 
+# LLM Model docs
+https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html
 
 
 ## Authors
